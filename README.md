@@ -13,7 +13,7 @@ Einführung in SWE: 23. Mai - 3. Juni 2021 (KGB, BENG, VTC, MB)
 
 Schreiben Sie ein Programm, das Zeichenketten von der Konsole einliest, sie in Morsezeichen überführt und anschließend auch visualisiert (blinkendes Konsolenfenster).
 
-Im Repository finden Sie die Datei MorseTable.cs. Sie enthält die statische Klasse  **MorseTable**, die wiederum über die statische Methode *GetMorseCode(...)* verfügt. Damit lassen sich einzelne Zeichen (Typ char) in Zeichenketten umwandeln. Sie setzen sich aus Punkten (kurz), Strichen (lang) und Leerzeichen zusammen.
+Im Repository finden Sie die Datei [MorseTable.cs](https://github.com/ComputerScienceLecturesTUBAF/SoftwareentwicklungSoSe2022_Aufgabe_02/blob/main/MorseTable.cs). Sie enthält die statische Klasse  **MorseTable**, die wiederum über die statische Methode *GetMorseCode(...)* verfügt. Damit lassen sich einzelne Zeichen (Typ char) in Zeichenketten umwandeln. Sie setzen sich aus Punkten (kurz), Strichen (lang) und Leerzeichen zusammen.
 
 Bitte nutzen Sie, soweit möglich, foreach-Schleifen zur Iteration und legen Sie sich statische Hilfsmethoden an - z. B. *static void Flash(int delay)*, um das Terminal für eine gewisse Zeit (in Millisekunden) umzufärben. Folgende Klassen, Methoden und Eigenschaften könnten außerdem nützlich sein:
 
