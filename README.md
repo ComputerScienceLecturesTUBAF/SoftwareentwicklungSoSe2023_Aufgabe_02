@@ -4,9 +4,9 @@ Dieses Aufgabeblatt adressiert nochmals die Grundelemente der Programmiersprache
 
 ## Bearbeitungszeit
 
-SWE: 16. Mai - 20. Mai 2021 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
+SWE: 16. Mai - 20. Mai 2022 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
 
-Einführung in SWE: 23. Mai - 3. Juni 2021 (KGB, BENG, VTC, MB)
+Einführung in SWE: 23. Mai - 3. Juni 2022 (KGB, BENG, VTC, MB)
 
 
 ## 1. Statische Methoden, for-each-Schleifen, Console, Sleep
