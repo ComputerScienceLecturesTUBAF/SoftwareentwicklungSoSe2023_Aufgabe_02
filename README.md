@@ -1,12 +1,12 @@
-# Softwareentwicklung SoSe2022 - Aufgabe 02
+# Softwareentwicklung SoSe2023 - Aufgabe 02
 
 Dieses Aufgabeblatt adressiert nochmals die Grundelemente der Programmiersprache C# und wechselt dann zu objektorientierten Konzepten.
 
 ## Bearbeitungszeit
 
-SWE: 16. Mai - 20. Mai 2022 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
+SWE: 15. Mai - 19. Mai 2023 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
 
-Einführung in SWE: 23. Mai - 3. Juni 2022 (KGB, BENG, VTC, MB)
+Einführung in SWE: 29. Mai - 9. Juni 2023 (KGB, BENG, VTC, MB)
 
 
 ## 1. Statische Methoden, for-each-Schleifen, Console, Sleep
