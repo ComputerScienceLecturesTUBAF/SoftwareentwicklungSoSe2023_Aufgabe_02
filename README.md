@@ -38,7 +38,7 @@ in einem C#-Programm verarbeitet werden.
 
 + Um den Zugriff auf Daten von außerhalb der Klasse zu ermöglichen sind für die Datenfelder Getter- und Setter-Methoden zu erstellen (z. B. *public string GetBezeichnung()* und *public void SetBezeichnung(string bezeichnung)*).
 
-+ Definieren Sie weiterhin zwei Konstruktoren: ein mit 4 Parametern zum Initialisieren der Datenfelder und ein ohne Parametern. Überlegen Sie auf welche Standard-Werte können die Datenfelder sinnvollerweise initialisiert werden im Konstruktor ohne Parameter.
++ Definieren Sie weiterhin zwei Konstruktoren: ein mit 4 Parametern zum Initialisieren der Datenfelder und einen ohne Parameter. Überlegen Sie auf welche Standard-Werte die Datenfelder im Konstruktor ohne Parameter sinnvollerweise initialisiert werden könnten.
 
 + Die zur Klasse gehörige *Print*-Methode soll die Daten eines Energiewesens ausgeben.
 
@@ -48,10 +48,10 @@ b. Stellen Sie die Klasse Energiewesen so um, dass statt Datenfelder und Getter-
 
 ## 3. Struct, Eigenschaften, Konstruktor, Exception
 
-Erstellen Sie die Struktur (struct) **Size**, die zwei private Datenfelder *width* und *height* beinhaltet.
+Erstellen Sie eine Struktur (struct) **Size**, die zwei private Datenfelder *width* und *height* beinhaltet.
 
 Erstellen Sie einen Konstruktor mit zwei Parametern zum Initialisieren der Datenfelder und die get- und set-Properties für beide Datenfelder.
-In den set- Properties und im Konstruktor soll überpruft werden, ob die übergegenen Werte negativ sind. In disem Fall soll statt einer Initialisierung der Auswurf der **System.ArgumentException** erfolgen.
+In den set- Properties und im Konstruktor soll überprüft werden, ob die übergebenen Werte negativ sind. In diesem Fall soll statt einer Initialisierung der Auswurf der **System.ArgumentException** erfolgen.
 
 Testen Sie die Struktur in der Main-Funktion. Denken Sie daran die beim Anlegen von Instanzen bzw. Verwenden von set-Properties evtl. entstehenden Exception zu behandeln.
 
@@ -67,7 +67,7 @@ Schreiben Sie ein Programm, das den Sperrmechanismus eines Smartphones modellier
 
 + Fügen Sie der Smartphone-Klasse bitte eine private Methode zur Authentifizierung hinzu. Sie fragt den Benutzer nach einer PIN (wenn gesetzt), die auf der Konsole eingegeben werden soll. Wenn die PIN stimmt, gibt die Methode *true* zurück. Nach einer Fehleingabe hat der Nutzer weitere Versuche, jedoch insgesamt maximal drei. Anschließend wird das Smartphone permanent gesperrt und lässt keine Authentifizierung mehr zu. In diesem Fall gibt die Methode *false* zurück. Die richtige Eingabe der PIN (z. B. nach zwei Fehlversuchen) soll die Anzahl der Fehlversuche auf 0 zurücksetzen.
 
-+ Verwenden Sie zum Zählen der Fehlversuche ein int-Datenfeld und zum Festhalten des Smartphonezustandes (ob gesperrt und nicht gesperrt) ein bool-Datenfeld.
++ Verwenden Sie zum Zählen der Fehlversuche ein int-Datenfeld und zum Festhalten des Smartphone Zustandes (ob gesperrt und nicht gesperrt) ein bool-Datenfeld.
 
 + Fügen Sie der Smartphone-Klasse eine öffentliche Methode zum Ändern der PIN hinzu. Dafür wird der Nutzer zunächst authentifiziert und darf anschließend einen neuen Wert auf der Konsole eingeben. Im Falle einer leeren Eingabe wird die PIN als "nicht gesetzt" markiert.
 
